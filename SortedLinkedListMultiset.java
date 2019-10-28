@@ -27,6 +27,9 @@ public class SortedLinkedListMultiset<T extends Comparable<T>> extends Multiset<
 	private Node root;
 	private int length;
 	
+	public boolean isEmpty(){
+	return root==null;
+	}
 	
 	public SortedLinkedListMultiset() {
 		root=null;
